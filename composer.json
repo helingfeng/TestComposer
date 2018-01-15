@@ -1,0 +1,10 @@
+{
+    "name": "helingfeng/my-composer",
+    "authors": [
+        {
+            "name": "hechao",
+            "email": "hechao-d@dfl.com"
+        }
+    ],
+    "require": {}
+}
