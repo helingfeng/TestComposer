@@ -1,10 +1,21 @@
 {
-    "name": "helingfeng/my-composer",
-    "authors": [
-        {
-            "name": "hechao",
-            "email": "hechao-d@dfl.com"
-        }
-    ],
-    "require": {}
+  "name": "helingfeng/my-composer",
+  "authors": [
+    {
+      "name": "hechao",
+      "email": "hechao-d@dfl.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Md5salt\\": "src/Md5salt/"
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
 }
