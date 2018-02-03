@@ -6,10 +6,17 @@
       "email": "hechao-d@dfl.com"
     }
   ],
-  "require": {},
+  "require": {
+    "laravel/framework": "5.5.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
   "autoload": {
     "psr-4": {
-      "Md5salt\\": "src/Md5salt/"
+      "Md5salt\\": "src/Md5salt/",
+      "FileEncrypt\\": "src/FileEncrypt/",
+      "SimpleFactory\\": "src/SimpleFactory/"
     }
   },
   "repositories": {
