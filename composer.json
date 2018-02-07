@@ -16,7 +16,8 @@
     "psr-4": {
       "Md5salt\\": "src/Md5salt/",
       "FileEncrypt\\": "src/FileEncrypt/",
-      "SimpleFactory\\": "src/SimpleFactory/"
+      "SimpleFactory\\": "src/SimpleFactory/",
+      "FactoryMethod\\": "src/FactoryMethod/"
     }
   },
   "repositories": {
